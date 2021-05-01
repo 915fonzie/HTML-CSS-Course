@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/* Can't use height or width with inline elemets */
+/* When you add margins on inline elements it only works on left or right÷ */
+
+/* using display: block removes it from being an inline element and allows the use of everything that was restricted */
+
+/* a {
+  display: block;
+  font-size: 5rem;
+  background: lightslategray;
+  height: 10rem;
+  padding-top: 1rem;
+  text-align: center;
+} */
+
+a {
+  font-size: 5rem;
+  display: inline-block;
+  /* keeps the element inline but allows the modification of top and bottom margins */
+  background: lightslategray;
+  height: 20rem;
+  width: 20rem;
+  margin: 2rem;
+}
