@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* try to always set your html font size to this to make things easier */
+}
+
+/* em multiples the parent size by the value given. html has a default size of 16px*/
+/* rem only inherits from the root parent which is the html default of 16px*/
+
+.text-section {
+  font-size: 1.5em;
+  /* 16 * 1.5 */
+}
+
+.text-section div {
+  font-size: 1.5em;
+  /* 16 * 1.5 * 1.5*/
+}
+
+.text-section {
+  font-size: 2.4rem;
+  /* 24px */
+}
+
+.text-section div {
+  font-size: 2.4rem;
+  /* 24px */
+}

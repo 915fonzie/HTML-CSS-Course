@@ -1,0 +1,19 @@
+h1.active {
+    color: pink;
+}
+
+#head {
+    color: green;
+}
+
+.header {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+.active {
+    color: blueviolet;
+}

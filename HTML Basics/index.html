@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandwich Boy</title>
+    <meta
+      name="description"
+      content="Fonzie is a professional cook, and does programming"
+    />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/img/Elegantthemes-Beautiful-Flat-Bolt.ico" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+  </head>
+  <body>
+    <h1>Img and Video</h1>
+    <p>Hello there, <i> this is some normal text</i></p>
+    <img
+      width="300"
+      height="450"
+      src="/img/pexels-sam-kolder-2387876.jpeg"
+      alt="lady in the mountains"
+    />
+    <video controls height="500">
+      <source src="/img/Raw Intro 2.0.MP4" type="video/mp4" />
+    </video>
+
+    <h1>Hello there link</h1>
+    <a target="_blank" href="https://www.youtube.com/user/rhettandlink2">
+      <img src="/img/iconmonstr-youtube-1.svg" alt="" />
+    </a>
+
+    <h1>Forms</h1>
+    <form action="/contact.html">
+      <label for="user">Username</label>
+      <input
+        maxlength="30"
+        minlength="6"
+        type="text"
+        name="user"
+        id="user"
+        placeholder="6 Character Min"
+        required
+      />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+      <select name="products" id="product">
+        <option value=""></option>
+        <option value="Macbook 2018">Macbook</option>
+        <option value="iPhone 11 Pro Max">iPhone</option>
+        <option value="Apple Watch series 3">Apple Watch</option>
+      </select>
+      <textarea name="message" id="message" cols="30" rows="5"></textarea>
+      <button type="submit">Submit</button>
+
+      <label for="macbook">Macbook</label>
+      <input type="radio" name="products" id="macbook" value="macbook" />
+      <label for="iphone">iphone</label>
+      <input type="radio" name="products" id="iphone" value="iphone" />
+      <label for="apple watch">apple watch</label>
+      <input
+        type="radio"
+        name="products"
+        id="apple watch"
+        value="apple watch"
+      />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>Lists</h1>
+    <ol>
+      <li>Home</li>
+      <li>Contact</li>
+      <li>Projects</li>
+    </ol>
+
+    <!-- Type the beginning of this line to create a comment -->
+
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ed</td>
+        <td>You</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>Ed</td>
+        <td>You</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <!-- When creating id's or classes, 
+        make sure to not use spaces for that specific one, 
+        spaces allow you to use multiple different classes or id's,
+        use a - instead like article-text instad of article text -->
+
+    <h1 id="logo">Logo</h1>
+
+    <h2>Article Title</h2>
+    <p class="article-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime nobis
+      fugit repudiandae adipisci ipsam illo dolorem, officiis rerum, illum nulla
+      ab. Autem, nemo similique delectus incidunt facilis iusto hic?
+    </p>
+    <h2>Article Title</h2>
+    <p class="article-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime nobis
+      fugit repudiandae adipisci ipsam illo dolorem, officiis rerum, illum nulla
+      ab. Autem, nemo similique delectus incidunt facilis iusto hic?
+    </p>
+    <h2>Article Title</h2>
+    <p class="article-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime nobis
+      fugit repudiandae adipisci ipsam illo dolorem, officiis rerum, illum nulla
+      ab. Autem, nemo similique delectus incidunt facilis iusto hic?
+    </p>
+
+    <p>This is some text that has nothing to do with the articles</p>
+
+    <!-- some type of html semantics, <header>, <nav>, <main>, <section>, <figure>, <figcaption>, <footer>, <aside>, <article> -->
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contacts</li>
+          <li>Projects</li>
+          <li>Sign Up</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>This is us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nostrum
+        iste expedita qui sunt, porro distinctio ab labore eaque pariatur?
+      </p>
+      <section>
+        <h2>Here is an image gallery</h2>
+        <figure>
+          <img src="" alt="mountain" />
+          <img src="" alt="river" />
+          <img src="" alt="waterfall" />
+          <figcaption>Nature pictures</figcaption>
+        </figure>
+      </section>
+      <section>
+        <article>
+          <h2>My little book</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            dolores consectetur quasi quia corrupti dolorem excepturi? Illum ad
+            pariatur amet!
+          </p>
+          <h2>My little book</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            dolores consectetur quasi quia corrupti dolorem excepturi? Illum ad
+            pariatur amet!
+          </p>
+        </article>
+      </section>
+
+      <section class="gallery">
+        <h2>These are images</h2>
+        <!-- Can still use divs for styling purposes and not needing semantics -->
+        <div class="black">
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+        <div class="while">
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+      </section>
+
+      <!-- acts like a side bar -->
+      <aside>stuff</aside>
+    </main>
+    <footer>
+      <p>Created 2018 copyright stuff</p>
+      <ul>
+        <li><a href="twitter.com">Twitter</a></li>
+      </ul>
+    </footer>
+
+    <h1>HTML Entities &copy;</h1>
+    <!-- adding special characters you can't normally put down easily.
+         Should look up HTML entities online and get the character you need -->
+  </body>
+</html>
