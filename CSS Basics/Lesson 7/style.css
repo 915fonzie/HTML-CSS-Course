@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button {
+    margin: 20rem;
+    padding: 2rem 4rem;
+    background: rgb(112, 112, 240);
+    border: 0.3rem solid rgb(112, 112, 240);
+    color: white;
+    font-size: 2.4rem;
+    border-radius: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
