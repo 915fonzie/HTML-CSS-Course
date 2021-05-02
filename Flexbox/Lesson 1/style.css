@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* When using flex, if flex-direction is in row,
+ justify-content adjusts horizontally and align-items does it vertically.
+  But when changing flex-direction to column,
+  justify-content switches to vertically and align-items to horizontally.
+  */
+
+  /* justify-content and align-items is meant to be used
+   on the parent container that affects all the children contained within */
+.container {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: flex-start; */
+  /* justify-content: space-evenly;
+    align-items: center; */
+  /* height: 50vh; */
+}
+
+/* if you use flex-grow, flex-wrap won't work unless you use flex-basis */
+/* if you just use flex like below,
+ it can be more convenient for using flex-grow,
+  flex-shrink and flex-basis all in one */
+
+/* flex:  1     1      20rem;
+          ^     ^        ^
+        grow  shrink   basis */
+
+.box {
+  height: 10rem;
+  /* width: 10rem; */
+  flex: 1 1 28rem;
+}
+
+
+/* If you use align-self or justify-self, it'll only affect that item within the container */
+/* there are no issues if you use justify-content and align-items alongside justify-self and align-self*/
+.box1 {
+  background: blue;
+  order: 1;
+  /* flex-grow: 1; */
+}
+.box2 {
+  background: green;
+  order: 2;
+  /* flex-grow: 1; */
+}
+.box3 {
+  background: rgb(133, 55, 136);
+  order: 3;
+  /* flex-grow: 2; */
+}
+.box4 {
+  background: rgb(201, 159, 22);
+  order: 4;
+}
+.box5 {
+  background: rgb(92, 33, 45);
+  order: 5;
+}
+.box6 {
+  background: rgb(15, 155, 165);
+  order: 6;
+}
