@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div {
+  background: lightcoral;
+  min-height: 50vh;
+  font-size: 3.2rem;
+}
+
+div h2 {
+    background: rgb(44, 187, 80);
+  height: 50vh;
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  body {
+    background: lightblue;
+  }
+  div {
+    background: lightblue;
+    font-size: calc(1.4rem + 2vw);
+  }
+  html {
+    font-size: 50%;
+  }
+}
