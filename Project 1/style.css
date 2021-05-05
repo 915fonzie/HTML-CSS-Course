@@ -59,6 +59,10 @@ button:hover {
   background: #27394e;
 }
 
+button:focus {
+  background: #2c3f57;
+}
+
 /* Nav section with HERO */
 
 .main-head {
@@ -95,7 +99,7 @@ nav ul {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
     url("/img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
