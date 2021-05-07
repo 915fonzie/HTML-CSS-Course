@@ -1,0 +1,7 @@
+footer {
+  min-height: 10vh;
+  h4 {
+      color: $primary-color;
+  }
+  @include flex(row, center, center)
+}

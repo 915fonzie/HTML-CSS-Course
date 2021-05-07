@@ -1,0 +1,12 @@
+@import "./global";
+@import "./intro";
+@import "./footer";
+
+section h2 {
+  color: $primary-color;
+  font-size: $big-font-size;
+}
+
+section button {
+  color: white;
+}
